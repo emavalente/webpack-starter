@@ -2,10 +2,10 @@ import "../css/components.css";
 import webpacklogo from "../assets/img/webpack-logo.png";
 
 export const saludar = (nombre) => {
-  console.log("Crando etiqueta h1");
+  console.log("Creando etiqueta h1...");
 
   const h1 = document.createElement("h1");
-  h1.innerText = `Hola, ${nombre}!!!`;
+  h1.innerText = `Hola, ${nombre}!!!. Bienvenido a la configuración de Webpack Starter`;
 
   document.body.append(h1);
 
